@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+
+body {
+    background-color: #E5E5EA ;
+  }
+
+#intro {
+    font-size: 36px;
+    font-family: 'Fredericka the Great';
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+  }
+
+#quote-box {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  #new-quote {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  #new-quote:hover {
+    background-color: #0056b3;
+}
+#tweet-quote {
+    display: block;
+    margin-top: 10px;
+    color: #1da1f2;
+    text-decoration: none;
+}
+#tweet-quote:hover {
+    text-decoration: underline;
+}
