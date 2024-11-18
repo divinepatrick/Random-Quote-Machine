@@ -6,7 +6,7 @@ const newQuoteButton = document.getElementById('new-quote');
 // Function to get a random quote from the API
 async function getRandomQuote() {
   try {
-    const response = await fetch('https://api.quotable.io/random');
+    const response = await fetch('http://api.quotable.io/random');
     const data = await response.json();
     return data;
   } catch (error) {
